@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, FlatList, SafeAreaView, TextInput } from 'react-native';
 import styles from './AppStyle';
-import Product from './components/Product'; // Doğru yoldan ve doğru şekilde içe aktardığınızdan emin olun
+import Product from './components/Product'; 
 
 import data from './data.json';
 
