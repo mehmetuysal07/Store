@@ -2,12 +2,6 @@ import React from 'react';
 import { View, Text, Image } from 'react-native';
 import Style from './ProductStyle';
 
-
-
-
-
-
-
 export const Product = ({ title, price, image, inStock }) => (
     <View style={Style.item}>
       <Image source={{ uri: image }} style={Style.image} />
